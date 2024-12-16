@@ -12,7 +12,7 @@ use analysis::{
 use utils::load_data;
 
 fn main() {
-    let file_path = "/opt/app-root/src/project/Dog_Bites_Data.csv"; 
+    let file_path = "Dog_Bites_Data.csv"; 
     let records = match load_data(file_path) {
         Ok(r) => r,
         Err(e) => {
